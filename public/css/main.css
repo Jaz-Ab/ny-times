@@ -1,0 +1,14 @@
+.hiden {
+  display: none;
+}
+
+.header {
+  padding-bottom: 50px;
+}
+
+.btn-submit {
+  border-radius: 5px;
+  height: 3.5vh;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/logo-pestaña.png">
+    <title>NY Times</title>
+    <!--Import materialize-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="row yellow accent-4 header">
+      <h1 class="col l12 center">¿Qué te interesa?</h1>
+      <div class="site-container container">
+        <form id="search-form">
+          <label for="search-keyword" class="hiden">¿Qué buscamos?</label>
+          <input id="search-keyword" type="text" name="" value="" placeholder="e.g.Android" required>
+          <input class="center col l12 btn-submit grey lighten-5" id="btn-submit" type="submit" name="" value="Submit">
+        </form>
+      </div>
+    </header>
+    <div class="site-container">
+      <ul id="response-container">
+
+      </ul>
+    </div>
+    <!-- Materialize  Jquery JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
